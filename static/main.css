@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+
+.viewport {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text-box {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2vh;
+    border-radius: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+}
+
+.title {
+    font-size: 4vh;
+}
+
+.subtitle {
+    font-size: 2vh;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 1vh;
+    padding: 1vh;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
